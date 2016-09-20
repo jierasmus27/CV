@@ -27,6 +27,8 @@ group :development, :test do
   gem "factory_girl_rails", "~> 4.0"
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.0'
+
+  gem 'metric_fu'
 end
 
 group :development do
